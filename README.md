@@ -1,1 +1,1 @@
-"# -Diabetes-Detector" 
+"# Diabetes-Detector" 
