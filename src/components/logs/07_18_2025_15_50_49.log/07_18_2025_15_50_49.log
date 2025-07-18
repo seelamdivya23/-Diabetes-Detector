@@ -1,0 +1,20 @@
+[ 2025-07-18 15:50:51,923 ] 45 root - INFO - Entered the data ingestion method/component
+[ 2025-07-18 15:50:51,926 ] 52 root - INFO - Read the dataset as dataframe
+[ 2025-07-18 15:50:51,931 ] 61 root - INFO - Train-test split initiated
+[ 2025-07-18 15:50:51,935 ] 73 root - INFO - Ingestion of the data is completed
+[ 2025-07-18 15:50:51,959 ] 80 root - INFO - read train and test complted
+[ 2025-07-18 15:50:51,959 ] 91 root - INFO - remove outliers
+[ 2025-07-18 15:50:51,974 ] 112 root - INFO - Obtaining preprocessing object
+[ 2025-07-18 15:50:51,975 ] 60 root - INFO - Numerical columns: ['Pregnancies', 'Glucose', 'BloodPressure', 'SkinThickness', 'Insulin', 'BMI', 'DiabetesPedigreeFunction', 'Age']
+[ 2025-07-18 15:50:51,976 ] 115 root - INFO - Applying preprocessing object on training and testing dataframes.
+[ 2025-07-18 15:50:52,521 ] 132 root - INFO - QQ plot saved: artifacts\qqplot_feature_0.png
+[ 2025-07-18 15:50:52,631 ] 132 root - INFO - QQ plot saved: artifacts\qqplot_feature_1.png
+[ 2025-07-18 15:50:52,724 ] 132 root - INFO - QQ plot saved: artifacts\qqplot_feature_2.png
+[ 2025-07-18 15:50:52,725 ] 135 root - INFO - Applying SMOTE on the training data.
+[ 2025-07-18 15:50:52,728 ] 142 root - INFO - Original training data shape: (505, 8), (505,)
+[ 2025-07-18 15:50:52,728 ] 143 root - INFO - Resampled training data shape: (692, 8), (692,)
+[ 2025-07-18 15:50:52,728 ] 156 root - INFO - Saved preprocessing object.
+[ 2025-07-18 15:50:52,729 ] 30 root - INFO - Splitting training and test input data
+[ 2025-07-18 15:51:18,419 ] 106 root - INFO - Model evaluation report: {'Logistic Regression': 0.6587301587301587, 'Random Forest': 0.7142857142857143, 'Decision Tree': 0.6746031746031746, 'Gradient Boosting': 0.6666666666666666, 'XGBoost': 0.6904761904761905, 'CatBoost': 0.6984126984126984, 'AdaBoost': 0.7301587301587301, 'K-Nearest Neighbors': 0.6825396825396826}
+[ 2025-07-18 15:51:18,419 ] 117 root - INFO - Best model: AdaBoost with score: 0.7301587301587301
+[ 2025-07-18 15:51:18,567 ] 141 root - INFO - Residual QQ plot saved at: artifacts\qqplot_residuals.png

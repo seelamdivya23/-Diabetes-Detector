@@ -1,0 +1,12 @@
+[ 2025-07-17 22:30:44,998 ] 45 root - INFO - Entered the data ingestion method/component
+[ 2025-07-17 22:30:45,001 ] 52 root - INFO - Read the dataset as dataframe
+[ 2025-07-17 22:30:45,005 ] 61 root - INFO - Train-test split initiated
+[ 2025-07-17 22:30:45,011 ] 73 root - INFO - Ingestion of the data is completed
+[ 2025-07-17 22:30:45,032 ] 85 root - INFO - Read train and test data completed
+[ 2025-07-17 22:30:45,048 ] 105 root - INFO - Obtaining preprocessing object
+[ 2025-07-17 22:30:45,048 ] 66 root - INFO - Numerical columns: ['Pregnancies', 'Glucose', 'BloodPressure', 'SkinThickness', 'Insulin', 'BMI', 'DiabetesPedigreeFunction', 'Age']
+[ 2025-07-17 22:30:45,049 ] 116 root - INFO - Applying preprocessing object on training and testing dataframes.
+[ 2025-07-17 22:30:45,077 ] 127 root - INFO - Saved preprocessing object.
+[ 2025-07-17 22:30:45,078 ] 30 root - INFO - Splitting training and test input data
+[ 2025-07-17 22:31:13,628 ] 106 root - INFO - Model evaluation report: {'Logistic Regression': 0.6825396825396826, 'Random Forest': 0.7222222222222222, 'Decision Tree': 0.7063492063492064, 'Gradient Boosting': 0.7142857142857143, 'XGBoost': 0.6825396825396826, 'CatBoost': 0.7222222222222222, 'AdaBoost': 0.7063492063492064, 'K-Nearest Neighbors': 0.7063492063492064}
+[ 2025-07-17 22:31:13,629 ] 117 root - INFO - Best model: Random Forest with score: 0.7222222222222222

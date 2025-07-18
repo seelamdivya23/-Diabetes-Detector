@@ -1,0 +1,16 @@
+[ 2025-07-18 15:23:25,398 ] 45 root - INFO - Entered the data ingestion method/component
+[ 2025-07-18 15:23:25,403 ] 52 root - INFO - Read the dataset as dataframe
+[ 2025-07-18 15:23:25,408 ] 61 root - INFO - Train-test split initiated
+[ 2025-07-18 15:23:25,415 ] 73 root - INFO - Ingestion of the data is completed
+[ 2025-07-18 15:23:25,438 ] 80 root - INFO - read train and test complted
+[ 2025-07-18 15:23:25,440 ] 94 root - INFO - Obtaining preprocessing object
+[ 2025-07-18 15:23:25,440 ] 60 root - INFO - Numerical columns: ['Pregnancies', 'Glucose', 'BloodPressure', 'SkinThickness', 'Insulin', 'BMI', 'DiabetesPedigreeFunction', 'Age']
+[ 2025-07-18 15:23:25,440 ] 97 root - INFO - Applying preprocessing object on training and testing dataframes.
+[ 2025-07-18 15:23:27,377 ] 114 root - INFO - QQ plot saved: artifacts\qqplot_feature_0.png
+[ 2025-07-18 15:23:27,490 ] 114 root - INFO - QQ plot saved: artifacts\qqplot_feature_1.png
+[ 2025-07-18 15:23:27,584 ] 114 root - INFO - QQ plot saved: artifacts\qqplot_feature_2.png
+[ 2025-07-18 15:23:27,584 ] 138 root - INFO - Saved preprocessing object.
+[ 2025-07-18 15:23:27,585 ] 30 root - INFO - Splitting training and test input data
+[ 2025-07-18 15:23:52,334 ] 106 root - INFO - Model evaluation report: {'Logistic Regression': 0.7532467532467533, 'Random Forest': 0.7597402597402597, 'Decision Tree': 0.7987012987012987, 'Gradient Boosting': 0.7662337662337663, 'XGBoost': 0.7662337662337663, 'CatBoost': 0.7467532467532467, 'AdaBoost': 0.7792207792207793, 'K-Nearest Neighbors': 0.6818181818181818}
+[ 2025-07-18 15:23:52,334 ] 117 root - INFO - Best model: Decision Tree with score: 0.7987012987012987
+[ 2025-07-18 15:23:52,544 ] 141 root - INFO - Residual QQ plot saved at: artifacts\qqplot_residuals.png

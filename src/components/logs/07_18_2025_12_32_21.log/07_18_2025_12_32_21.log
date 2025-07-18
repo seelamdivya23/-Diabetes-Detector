@@ -1,0 +1,16 @@
+[ 2025-07-18 12:32:23,356 ] 45 root - INFO - Entered the data ingestion method/component
+[ 2025-07-18 12:32:23,358 ] 52 root - INFO - Read the dataset as dataframe
+[ 2025-07-18 12:32:23,361 ] 61 root - INFO - Train-test split initiated
+[ 2025-07-18 12:32:23,364 ] 73 root - INFO - Ingestion of the data is completed
+[ 2025-07-18 12:32:23,384 ] 79 root - INFO - read train and test complted
+[ 2025-07-18 12:32:23,385 ] 93 root - INFO - Obtaining preprocessing object
+[ 2025-07-18 12:32:23,385 ] 59 root - INFO - Numerical columns: ['Pregnancies', 'Glucose', 'BloodPressure', 'SkinThickness', 'Insulin', 'BMI', 'DiabetesPedigreeFunction', 'Age']
+[ 2025-07-18 12:32:23,385 ] 96 root - INFO - Applying preprocessing object on training and testing dataframes.
+[ 2025-07-18 12:32:23,391 ] 105 root - INFO - Applying SMOTE on the training data.
+[ 2025-07-18 12:32:23,394 ] 112 root - INFO - Original training data shape: (614, 8), (614,)
+[ 2025-07-18 12:32:23,394 ] 113 root - INFO - Resampled training data shape: (802, 8), (802,)
+[ 2025-07-18 12:32:23,394 ] 119 root - INFO - Class distribution after SMOTE: {np.int64(0): np.int64(401), np.int64(1): np.int64(401)}
+[ 2025-07-18 12:32:23,394 ] 126 root - INFO - Saved preprocessing object.
+[ 2025-07-18 12:32:23,395 ] 30 root - INFO - Splitting training and test input data
+[ 2025-07-18 12:32:47,650 ] 106 root - INFO - Model evaluation report: {'Logistic Regression': 0.7077922077922078, 'Random Forest': 0.7532467532467533, 'Decision Tree': 0.7142857142857143, 'Gradient Boosting': 0.7012987012987013, 'XGBoost': 0.6818181818181818, 'CatBoost': 0.7142857142857143, 'AdaBoost': 0.7272727272727273, 'K-Nearest Neighbors': 0.6948051948051948}
+[ 2025-07-18 12:32:47,650 ] 117 root - INFO - Best model: Random Forest with score: 0.7532467532467533

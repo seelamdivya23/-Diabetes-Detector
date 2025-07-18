@@ -1,0 +1,13 @@
+[ 2025-07-17 21:52:34,511 ] 45 root - INFO - Entered the data ingestion method/component
+[ 2025-07-17 21:52:34,514 ] 52 root - INFO - Read the dataset as dataframe
+[ 2025-07-17 21:52:34,518 ] 61 root - INFO - Train-test split initiated
+[ 2025-07-17 21:52:34,523 ] 73 root - INFO - Ingestion of the data is completed
+[ 2025-07-17 21:52:34,547 ] 94 root - INFO - Read train and test data completed
+[ 2025-07-17 21:52:34,547 ] 105 root - INFO - remove outliers
+[ 2025-07-17 21:52:34,563 ] 117 root - INFO - Obtaining preprocessing object
+[ 2025-07-17 21:52:34,563 ] 71 root - INFO - Numerical columns: ['Pregnancies', 'Glucose', 'BloodPressure', 'SkinThickness', 'Insulin', 'BMI', 'DiabetesPedigreeFunction', 'Age']
+[ 2025-07-17 21:52:34,574 ] 131 root - INFO - Applying preprocessing object on training and testing dataframes.
+[ 2025-07-17 21:52:34,591 ] 150 root - INFO - Saved preprocessing object.
+[ 2025-07-17 21:52:34,592 ] 30 root - INFO - Splitting training and test input data
+[ 2025-07-17 21:52:55,959 ] 106 root - INFO - Model evaluation report: {'Logistic Regression': 0.753968253968254, 'Random Forest': 0.746031746031746, 'Decision Tree': 0.7857142857142857, 'Gradient Boosting': 0.7142857142857143, 'XGBoost': 0.7619047619047619, 'CatBoost': 0.746031746031746, 'AdaBoost': 0.8015873015873016, 'K-Nearest Neighbors': 0.6984126984126984}
+[ 2025-07-17 21:52:55,959 ] 117 root - INFO - Best model: AdaBoost with score: 0.8015873015873016

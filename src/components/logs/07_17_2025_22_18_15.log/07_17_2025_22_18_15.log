@@ -1,0 +1,7 @@
+[ 2025-07-17 22:18:17,237 ] 45 root - INFO - Entered the data ingestion method/component
+[ 2025-07-17 22:18:17,240 ] 52 root - INFO - Read the dataset as dataframe
+[ 2025-07-17 22:18:17,244 ] 61 root - INFO - Train-test split initiated
+[ 2025-07-17 22:18:17,249 ] 73 root - INFO - Ingestion of the data is completed
+[ 2025-07-17 22:18:17,269 ] 96 root - INFO - Read train and test data completed
+[ 2025-07-17 22:18:17,269 ] 108 root - INFO - remove outliers
+[ 2025-07-17 22:18:17,287 ] 120 root - INFO - Obtaining preprocessing object
