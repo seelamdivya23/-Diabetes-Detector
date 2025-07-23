@@ -11,7 +11,7 @@ This project uses various ML algorithms to predict whether a person is diabetic 
 ![App Screenshot](media/screenshot.png)
 
 ## 🎥 Demo Video
-(https://github.com/seelamdivya23/Diabetes-Detector/commit/d89a9f6c68c952cce12f44ec7fa7d212db20bfdb#diff-5c1b1c804fb4455e843d90eb889bc7893eb229efe3fbeb972556ae99a5bece32)
+Media/Diabetic-Detector.mp4
 
 ---
 
