@@ -8,7 +8,7 @@ This project uses various ML algorithms to predict whether a person is diabetic 
 
 ## 🖼️ Screenshot
 
-![App Screenshot](media/screenshot.png)
+![App Screenshot](Media/Screenshot (1).png
 
 
 ---
