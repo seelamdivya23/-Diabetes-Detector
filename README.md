@@ -10,8 +10,6 @@ This project uses various ML algorithms to predict whether a person is diabetic 
 
 ![App Screenshot](media/screenshot.png)
 
-## 🎥 Demo Video
-Media/Diabetic-Detector.mp4
 
 ---
 
