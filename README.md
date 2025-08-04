@@ -99,13 +99,12 @@ python app.py
 ```
 Diabetes-Detector/
 │
-├── static/                      # CSS, JS, or other static files
+├── static/
+ ├── screenshot/ screenshot.png                     # CSS, JS, or other static files, 📸 Add screenshots 
 ├── templates/                   # HTML templates
 ├── src/                         # Python modules for ML pipeline
 ├── notebook/                    # Jupyter Notebooks for EDA, training, etc.
-├── media/                       # 📸 Add screenshots and demo videos here
-│   ├── screenshot.png
-│   └── demo_video.mp4
+├── media/              
 ├── app.py                       # Flask app
 ├── requirements.txt             # Python dependencies
 ├── README.md                    # 📝 Main project description
