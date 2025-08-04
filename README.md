@@ -6,9 +6,14 @@ A machine learning web application that predicts the likelihood of diabetes in a
 
 This project uses various ML algorithms to predict whether a person is diabetic or not based on features like BMI, Glucose, Blood Pressure, Insulin, and more. It includes data preprocessing, feature engineering, model training, evaluation, and deployment via a Flask web interface.
 
-## 🖼️ Screenshot
-![App Screenshots](https://raw.githubusercontent.com/seelamdivya23/Diabetes-Detector/main/media/screenshot.png) <br>
-https://github.com/seelamdivya23/Diabetes-Detector/commit/d89a9f6c68c952cce12f44ec7fa7d212db20bfdb#diff-106091fae0fb613b40d777226da3d5b9406a9c49a78803ef3fc93b57a02f3f28
+## 🖼️ Screenshots
+
+### 🏠 Home Page
+![Home Page](static/screenshots/home.png) <!-- Replace with your actual image path -->
+
+### 📊 Prediction Result
+![Prediction Output](static/screenshots/prediction-1.png)
+![Prediction Output](static/screenshots/prediction-2.png)
 
 
 
