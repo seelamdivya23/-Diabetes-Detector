@@ -24,13 +24,7 @@ from src.utils import save_object, plot_qq                # ✅ Added plot_qq
 # Import SMOTE
 from imblearn.over_sampling import SMOTE
 
-# # ✅ Top-level function to make values strictly positive (required for Box-Cox)
-# def shift_positive(X):
-#     X = np.array(X)
-#     shift = np.abs(np.min(X, axis=0)) + 1e-4  # Small buffer to avoid zero
-#     return X + shift
 
-# Configuration class for storing transformation file path
 @dataclass
 class DataTransformationConfig:
     preprocessor_obj_file_path = os.path.join('artifacts', "preprocessor.pkl")  # Path to save preprocessing object

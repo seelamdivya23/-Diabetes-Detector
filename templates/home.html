@@ -1,40 +1,9 @@
 <html>
     <head>
-    <title>Diabetes Detector</title>
-    <style>
-    .form-grid {
-        display: grid;
-        text-decoration-color: black;
-        text-transform: uppercase;
-        text-shadow: 0cqmax;
-        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-        gap: 25px;
-        padding: 50px;
-        background-color: rgb(195, 220, 220);
-        background-image: -moz-linear-gradient();
-      
-    }
-
-    .form-grid label {
-        font-weight: bold;
-    }
-
-    .form-grid input {
-        width: 100%;
-        padding: 5px;
-        margin-top: 5px;
-    }
-
-    .btn {
-        margin-top: 20px;
-        padding: 10px 20px;
-        font-size: 16px;
-        font-style: normal;
-        background-color: rgb(195, 220, 220);
-    }
-</style>
+    <meta charset="UTF-8">
+    <title>Diabetes Prediction</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
 </head>
-<body>
 <form action="{{ url_for('predict_datapoint') }}" method="post">
     <div class="form-grid">
         <div>
@@ -73,11 +42,12 @@
 
     <input class="btn" type="submit" value="Predict Diabetes Risk" />
  
-</form>
+
 {% if results == 1.0 %}
-    <h2 style="color: green; text-align: center;">✅ The prediction is: <strong>Diabetic</strong></h2>
+    <h2 style="color:rgb(209, 33, 33); text-align: center;">❌ The prediction is: <strong>Diabetic</strong></h2>
 {% elif results == 0.0 %}
-    <h2 style="color: red;; text-align: center;">❌ The prediction is: <strong>Non-Diabetic</strong></h2>
+    <h2 style="color: rgb(20, 222, 20);; text-align: center;">✅ The prediction is: <strong>Non-Diabetic</strong></h2>
 {% endif %}
+</form>
 </body>
 </html>
